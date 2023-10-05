@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * print Programming is like building a multilingual puzzle
- * return 0
+ * main -  print Programming is like building a multilingual puzzle
+ * Return: 0 (Succedd)
  */
 
 int main(void)
