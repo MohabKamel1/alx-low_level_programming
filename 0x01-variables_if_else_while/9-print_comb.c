@@ -6,9 +6,11 @@
  * main - write poit
  * Return: 0
  */
+
 int main(void)
 {
 	int d;
+
 	for (d = '0'; d <= '9'; d++)
 	{
 	putchar(d);
