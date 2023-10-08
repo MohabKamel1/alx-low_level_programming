@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- *  main - write poit
- *  Return: 0
+ * main - write poit
+ * Return: 0
  */
 
 int main(void)
