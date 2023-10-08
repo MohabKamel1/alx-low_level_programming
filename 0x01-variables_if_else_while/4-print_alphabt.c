@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- *  main - write point 
+ * main - write point 
  *  Return: 0
  */
 
