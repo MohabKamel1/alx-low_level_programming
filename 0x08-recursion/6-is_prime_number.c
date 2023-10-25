@@ -24,7 +24,7 @@ int divs(int a, int b)
 }
 
 /**
- * is_prime_number - checks 
+ * is_prime_number - checks
  * @n: input
  * Return: number
  */
