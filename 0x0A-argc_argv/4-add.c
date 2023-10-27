@@ -1,7 +1,6 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+
 /**
  * main- prints number of args
  * @argc: size
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
 	{
 		for (c = argv[argc]; *c; c++)
 			if (*c < '0' || *c > '9')
-				return (printif("Error\n"), 1 );
+				return (printf("Error\n"), 1);
 		sum += atoi(argv[argc]);
 	}
 	printf("%d\n", sum);
