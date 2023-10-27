@@ -1,30 +1,27 @@
-#include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main- prints number of args
+ * main - print number of args
  * @argc: size
  * @argv: string
- *
  * Return: if error 0
  *			eles 1.
  */
 
 int main(int argc, char *argv[])
 {
-	int i, sum = 1;
+	int sum;
 
-	if (argc == 1)
+	if (argc == 3)
 	{
-		printf("Error\n");
-		return (1);
+		sum = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", sum);
 	}
 	else
 	{
-		for (i = 1; i < argc; i++)
-			sum = sum * atoi(argv[i]);
-		printf("%d\n", sum);
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
