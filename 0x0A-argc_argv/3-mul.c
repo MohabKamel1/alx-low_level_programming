@@ -3,10 +3,12 @@
 #include <stdlib.h>
 
 /**
- * main- Enter data
- * @argc: input
- * @argv: input
- * Return: 0 when erorr else 1
+ * main- prints number of args
+ * @argc: size
+ * @argv: string
+ *
+ * Return: if error 0
+ *			eles 1.
  */
 
 int main(int argc, char *argv[])
