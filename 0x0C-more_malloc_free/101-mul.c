@@ -65,7 +65,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 /**
  * check_for_digits - Enter data
  * @av: input
- * Return: 0 
+ * Return: 0
  */
 
 int check_for_digits(char **av)
