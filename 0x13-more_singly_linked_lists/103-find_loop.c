@@ -2,7 +2,7 @@
 
 /**
  * find_listint_loop - Enter data
- * @head: input 
+ * @head: input
  * Return: address
  */
 
