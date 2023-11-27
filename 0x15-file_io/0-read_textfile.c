@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - Enter Data
+ * read_textfile - Enter data
  * @filename: input
  * @letters: input
  * Return: void
