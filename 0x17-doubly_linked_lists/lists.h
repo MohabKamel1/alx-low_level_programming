@@ -1,11 +1,5 @@
 #ifndef LISTS_H
 #define LISTS_H
-
-/*
- * File: lists.h
- * Auth Mohab Kamel
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,7 +8,7 @@
  * @n: input
  * @prev: input
  * @next: input
- * Description: doubly linked list node structure
+ * Description: doubly linked list node structurs
  */
 
 typedef struct dlistint_s
